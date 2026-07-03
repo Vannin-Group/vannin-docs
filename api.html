@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>API Overview | Greencube by Vannin Group</title>
+<meta name="description" content="How programmatic access to Greencube works: FHIR-based APIs, authentication, sandbox environments, and partner integration, from Vannin Group.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/style.css"></head><body>
+<div class="top"><a class="brand" href="/"><img src="https://cdn.prod.website-files.com/69e4f9ae14e53d7d7c7420cd/69e4fa5b3ba3ec9c9d0a1c6b_Logo%20Vannin.png" alt="Vannin Group logo"><span>Greencube Docs</span></a><nav><a href="/interoperability.html">Interoperability</a><a href="/integration-patterns.html">Integration</a><a href="/security.html">Security</a><a href="/api.html">API</a><a href="https://vanningroup.com">vanningroup.com</a></nav></div>
+<div class="wrap">
+<div class="kicker">Greencube by Vannin Group</div><h1>API overview</h1>
+<p class="lead">Greencube exposes a FHIR-based integration surface for customers and approved partners. This page describes how access is structured; full specifications are provided with credentials.</p>
+<h2>How access works</h2>
+<ul>
+<li><strong>Scoped credentials.</strong> API clients are registered per organisation and per environment, with scopes limited to the resources each integration needs.</li>
+<li><strong>Sandbox first.</strong> Integrations are built and conformance-tested against a sandbox environment with synthetic data before any production access.</li>
+<li><strong>FHIR resources.</strong> Patient, Encounter, Observation, MedicationRequest, DiagnosticReport, and Appointment are the core exchange resources.</li>
+<li><strong>Event delivery.</strong> Subscriptions and HL7 v2 feeds are available for systems that need push delivery rather than polling.</li>
+</ul>
+<h2>Who integrates</h2>
+<p>Hospital IT teams connecting existing systems, national programmes connecting reporting infrastructure, and product partners in laboratory, imaging, and pharmacy. All integrations run through the same governance: registration, sandbox conformance, and production approval.</p>
+<div class="card"><strong>Start an integration.</strong> Contact <a href="https://vanningroup.com/contact">the Vannin Group integration team</a> with your use case to receive documentation and sandbox access.</div>
+</div>
+<footer>Greencube is owned and developed by <a href="https://vanningroup.com">Vannin Group</a>. In production since 2012 across 300+ clinical sites in 14 countries. <a href="https://vanningroup.com/greencube">Product</a> · <a href="https://vanningroup.com/greencube-implementations">Deployments</a> · <a href="https://vanningroup.com/contact">Contact</a> · <a href="https://status.vanningroup.com">System status</a></footer>
+</body></html>
