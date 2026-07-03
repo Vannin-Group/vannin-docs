@@ -3,10 +3,10 @@ body{font-family:'Geist',-apple-system,BlinkMacSystemFont,sans-serif;color:#3341
 a{color:#1B2A4A}
 .top{background:#0a0a0a;color:#fff;padding:16px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
 .top a{color:#fff;text-decoration:none}
-.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:16px;letter-spacing:.01em}
-.brand img{height:26px;width:auto;display:block}
-.brand span{opacity:.75;font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.14em;margin-top:2px}
-.top nav a{margin-left:20px;font-size:13.5px;opacity:.85;font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.08em}
+.brand{display:flex;align-items:center;gap:12px;font-size:16px}.brand strong{font-weight:600;letter-spacing:.06em;font-size:15px}
+.brand img{height:20px;width:auto;display:block}
+.brand span{opacity:.55;border-left:1px solid rgba(255,255,255,.25);padding-left:12px;font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.14em;margin-top:2px}
+.top nav a{margin-left:22px;font-size:13px;opacity:1;color:#e8ebf2;font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.08em}
 .top nav a:hover{opacity:1}
 .wrap{max-width:860px;margin:0 auto;padding:64px 24px}
 .kicker{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#66748f;margin-bottom:14px}
