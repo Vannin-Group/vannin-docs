@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pharmacy Module | Greencube by Vannin Group</title>
+<meta name="description" content="The Greencube pharmacy module: unit-dose dispensing, pharmacist validation, therapeutic exchange, outpatient dispensing, and the hospital drug guide.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/style.css"></head><body>
+<div class="top"><a class="brand" href="/"><img src="https://cdn.prod.website-files.com/69e4f9ae14e53d7d7c7420cd/69e4fa117fd94b5db682c678_Logomark.svg" alt="Vannin Group logo"><strong>VANNIN GROUP</strong><span>Greencube Docs</span></a><nav><a href="/interoperability.html">Interoperability</a><a href="/integration-patterns.html">Integration</a><a href="/security.html">Security</a><a href="/api.html">API</a><a href="/modules/">Modules</a><a href="https://vanningroup.com">vanningroup.com</a></nav></div>
+<div class="wrap">
+<div class="kicker">Greencube by Vannin Group</div><h1>Pharmacy module</h1>
+<p class="lead">The pharmacy module runs the hospital medicines circuit end to end: from the doctor's prescription, through pharmacist validation, to unit-dose preparation, ward delivery, returns, and outpatient dispensing, with stock and patient charging kept in step automatically.</p>
+<h2>Unit-dose management</h2>
+<p>Pharmacy staff define how many unit-dose distributions each floor receives per day and at what times. For each round the system calculates the trolley contents from active prescriptions, checks pharmacy warehouse stock and flags break-of-stock items, and prints preparation lists by bed and patient. Difference listings capture prescription changes made while a trolley is being prepared, incremental listings cover drugs prescribed after closure, and closing the trolley posts the warehouse movements and allocates the charge to each patient. On return, the system reconciles administered, returned, lost, and on-floor doses and generates the matching stock movements. The same menu manages active diets per floor, with label printing and export for kitchen integration.</p>
+<h2>Pharmacy validation</h2>
+<p>Pharmacists review every prescribed treatment for inpatients and emergency patients before it reaches the trolley. The validation screen shows the full treatment, the drug information sheet, and drug-to-drug and drug-to-patient interaction alerts. Pharmacists can validate, reject, or hold each line, add indications visible to the prescriber, and perform a therapeutic exchange that ends the original prescription and starts the replacement for the doctor to confirm. Medicines prescribed outside the guide carry the doctor's justification, and non-validated medicines are excluded from the unit-dose cart.</p>
+<h2>Outpatient dispensing</h2>
+<p>Hospital-dispensed medication for outpatients and inpatients is managed through a dispensation search engine and a per-patient dispensing screen that tracks total, taken, and pending doses, calculates the next dispensation date, records the associated diagnosis, and can invoice the dispensation directly.</p>
+<h2>Protocols and the drug guide</h2>
+<ul>
+<li>Protocol maintenance: reusable treatment protocols combining medicines with dose, route, frequency, and conditions, plus oxygen therapy regimens and other specifications for prescribers to apply in one step.</li>
+<li>Pharmacotherapeutic guide: the hospital drug catalogue, updatable from an external drug repository, with per-drug data covering guides by care setting, classifications, dangerous medication pictograms, conversion factors, and default adult and paediatric doses that drive prescribing alerts.</li>
+<li>Active ingredient sheets: stability, concentration, preparation, and precaution data, including cytostatic handling.</li>
+</ul>
+<h2>How it connects</h2>
+<p>The module consumes prescriptions from the medical history module, feeds administration screens in nursing, moves stock in the supplies module, and passes patient charges to billing without manual re-entry.</p>
+<div class="card">Full module documentation, training materials, and configuration guides are provided to customers during implementation. <a href="https://vanningroup.com/contact">Contact the team</a>.</div>
+</div>
+<footer>Greencube is owned and developed by <a href="https://vanningroup.com">Vannin Group</a>. In production since 2012 across 300+ clinical sites in 14 countries. <a href="https://vanningroup.com/greencube">Product</a> · <a href="https://vanningroup.com/greencube-implementations">Deployments</a> · <a href="https://vanningroup.com/contact">Contact</a> · <a href="https://status.vanningroup.com">System status</a></footer>
+</body></html>
